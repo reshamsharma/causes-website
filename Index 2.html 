@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      li {
+        display: inline-block;
+        list-style-type: none;
+        width: 100px;
+        height: 20px;
+        padding: 10px;
+        border: 1px solid black;
+        background-color: lavender;
+        text-align: center;
+      }
+
+      .nav-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+      }
+
+      .button-link {
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 20px; /* round the corners */
+        background-color: lavender;
+        text-decoration: none;
+        color: black;
+      }
+
+      .button-link:hover {
+        background-color: black;
+        color: lavender;
+      }
+
+      input {
+        height: 50px;
+        border: 5px solid black;
+        font-size: 30px;
+      }
+
+      input[type=text] {
+        background-color: lavender;
+      }
+
+      input[type=submit] {
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="#">About</a></li>
+        <li><a class="nav-link" href="#">News</a></li>
+        <li><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    
+    <br><br><br><br>
+
+    <a class="button-link" href="#">My Button</a>
+
+    <br><br><br><br>
+
+    <button>My Button</button>
+
+    <br><br><br><br>
+
+    <form action="https://www.google.com/maps" method="GET">
+      <input type="text" name="q">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
